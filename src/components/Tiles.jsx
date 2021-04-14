@@ -12,8 +12,8 @@ const Tiles = ({ data, title, type }) => (
     <div className={styles.tiles}>
       <Swiper
         spaceBetween={20}
-        slidesPerView={8}
-        slidesPerGroup={8}
+        slidesPerView={10}
+        slidesPerGroup={10}
         navigation
       >
         {data.map(d => (
